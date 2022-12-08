@@ -11,9 +11,6 @@ rclpy.init()
 node = Node("talker")
 talker = Talker()
 
-#pub = node.create_publisher(Int16, "countup", 10)
-#n = 0
-
 def cb():
     msg = Int16()
     msg.data = talker.n
