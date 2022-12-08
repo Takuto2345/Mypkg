@@ -3,7 +3,7 @@ from rclpy.node import Node
 from std_msgs.msg import Int16
 
 class Talker():
-    def __init__(self, node):
+    def __init__(self, node):#initに__（アンダーバーが必要なのはselfとnodeに変更を設定できるようにするためであり、今回の場合一度初期値にするために必要らしい
         self.pub = node.create_publisher(Int16, "countup", 10)
         self.n = 0
         node.create_timer(0.5, self.cb)
