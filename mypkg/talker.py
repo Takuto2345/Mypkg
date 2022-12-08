@@ -16,7 +16,7 @@ talker = Talker()
 
 def cb():
     msg = Int16()
-    msg.data = taler.n
+    msg.data = talker.n
     talker.pub.publish(msg)
     talker.n += 1
 
