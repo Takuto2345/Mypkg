@@ -1,5 +1,5 @@
 # Mypkg
-![test](https://github.com/Takuto2345/robosys202x/actions/workflows/test.yml/badge.svg)
+![test](https://github.com/Takuto2345/Mypkg/actions/workflows/test.yml/badge.svg)
 ![test](https://img.shields.io/badge/ros2-humble-blue)
 ## 概要
 countupという名のトピックを介して16bitの符号つき整数型のメッセージをtalker.py,listener.pyという名の２つのノードでパブリッシュ並びにサブスクライブするros2用のパッケージ
