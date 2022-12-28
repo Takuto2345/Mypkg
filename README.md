@@ -32,7 +32,7 @@ listener-2] [INFO] [1672222662.417031373] [listener]: Listen: 0
 
 ## 必要なソフトウェア
 * pyhon3
-* ros2
+* ros2 humble
 
 ## 環境
 * Ubuntu 22.04
