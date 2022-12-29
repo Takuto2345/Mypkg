@@ -22,7 +22,7 @@ ros2 launch mypkg talk_listen.launch.py
 ```
 ### 結果
 ```
-listener-2] [INFO] [1672222662.417031373] [listener]: Listen: 0
+[listener-2] [INFO] [1672222662.417031373] [listener]: Listen: 0
 [listener-2] [INFO] [1672222662.903533239] [listener]: Listen: 1
 [listener-2] [INFO] [1672222663.405118836] [listener]: Listen: 2
 [listener-2] [INFO] [1672222663.904896988] [listener]: Listen: 3
