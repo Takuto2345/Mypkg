@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText : 2022 Takuto Kanno
+# SPDX-License-Identifirt: BSD-3-Clause
+
 import launch
 import launch.actions
 import launch.substitutions
@@ -7,7 +10,7 @@ def generate_launch_description():
 
     talker = launch_ros.actions.Node(
             package='mypkg',
-            executable='listener',
+            executable='talker',
             )
     listener = launch_ros.actions.Node(
             package='mypkg',
