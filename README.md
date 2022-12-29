@@ -1,6 +1,6 @@
 # Mypkg
 ![test](https://github.com/Takuto2345/Mypkg/actions/workflows/test.yml/badge.svg)
-![test](https://img.shields.io/ros/v/humble/vision_msgs)
+![test](://img.shields.io/badge/ros2-humble-blue)
 ![test](https://img.shields.io/badge/python-v3.10-blue)
 ## 概要
 countupという名のトピックを介して16bitの符号つき整数型のメッセージをtalker.py,listener.pyという名の２つのノードでパブリッシュ並びにサブスクライブするros2用のパッケージ
@@ -29,11 +29,6 @@ ros2 launch mypkg talk_listen.launch.py
 [listener-2] [INFO] [1672222664.404957803] [listener]: Listen: 4
 [listener-2] [INFO] [1672222664.904812236] [listener]: Listen: 5
 ```
-
-
-## 必要なソフトウェア
-* pyhon3
-* ros2 humble
 
 ## 環境
 * Ubuntu 22.04
