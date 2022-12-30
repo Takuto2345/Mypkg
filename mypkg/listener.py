@@ -9,12 +9,13 @@ class Listener():
     def __init__(self, node):
         self.subscription = self.create_subscription(Int16, "countup", cb, 10)
     self.subscription
-    def cb(self, msg):
+    def cb(self):
         self.get_logger().info("Listen: %d" % msg.data)
 
 def main():
     rclpy.init()
     node = Node("listener")
+    listener = Listener(node)
     rclpy.spin(node)
 
 if __name__ == '__main__':
