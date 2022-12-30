@@ -1,6 +1,6 @@
 #!/bin/bash
 # SPDX-FileCopyrightText : 2022 Takuto Kanno
-# SPDX-License-Identifirt: BSD-3-Clause
+# SPDX-License-Identifier: BSD-3-Clause
 
 
 dir=~
