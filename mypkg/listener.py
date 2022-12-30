@@ -12,7 +12,14 @@ class Listener():
     def cb(self, msg):
         self.get_logger().info("Listen: %d" % msg.data)
 
-rclpy.init()
-node = Node("listener")
+def main():
+    rclpy.init()
+    node = Node("listener")
+    rclpy.spin(node)
+
+if __name__ == '__main__':
+    main()
+#rclpy.init()
+#node = Node("listener")
 #pub = node.create_subscription(Int16, "countup", cb, 10)
-rclpy.spin(node)
+#rclpy.spin(node)
