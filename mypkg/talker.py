@@ -1,5 +1,5 @@
 # SPDX-FileCopyrightText : 2022 Takuto Kanno
-# SPDX-License-Identifier: BSD-3-Clause
+# SPDX-License-Identifier BSD-3-Clause
 
 
 import rclpy
@@ -28,4 +28,4 @@ def main():
     rclpy.spin(node)
 
 if __name__ == '__main__':
-        main()
+    main()
