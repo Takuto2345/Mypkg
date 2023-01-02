@@ -36,6 +36,7 @@ ros2 launch mypkg talk_listen.launch.py
 
 ## 環境
 * Ubuntu 22.04
+* ros2 humble
 
 ## ライセンス
 
