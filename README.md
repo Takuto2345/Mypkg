@@ -1,4 +1,4 @@
-# Mypkg
+# mypkg
 ![test](https://github.com/Takuto2345/Mypkg/actions/workflows/test.yml/badge.svg)
 ![test](https://img.shields.io/badge/ros2-humble-blue)
 ![test](https://img.shields.io/badge/python-v3.10-blue)
@@ -8,7 +8,7 @@ countupという名のトピックを介して16bitの符号つき整数型の�
 
 
 ## 使い方
-Mypkgをインストール後、ビルドをした後実行するとtalker.pyから数を０から１ずつ増やすメッセージを渡し、listener.pyで受け取ったものを標準出力する。
+mypkgをインストール後、ビルドをした後実行するとtalker.pyから数を０から１ずつ増やすメッセージを渡し、listener.pyで受け取ったものを標準出力する。
 ### ビルド
 ````
 colcon build
