@@ -8,19 +8,9 @@ countupという名のトピックを介して16bitの符号つき整数型の�
 
 
 ## 使い方
-mypkgをインストール後、ビルドをした後実行するとtalker.pyから数を０から１ずつ増やすメッセージを渡し、listener.pyで受け取ったものを標準出力する
-### インストール
-```
-git clone https://github.com/Takuto2345/mypkg.git
-```
-### ビルド
-````
-colcon build
-````
-```
-source ~/.bashrc
-```
+
 ### 実行
+実行するとtalker.pyから数を０から１ずつ増やすメッセージを渡し、listener.pyで受け取ったものを標準出力する
 ```
 ros2 launch mypkg talk_listen.launch.py
 ```
